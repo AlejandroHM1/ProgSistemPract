@@ -16,3 +16,12 @@ gcc .\hola.obj -o holamundo.exe, que nos creo el .exe
 luego arrastramos el .exe a la terminal y le dimos enter. Nos imprimió:
 
 "Hola mundo"
+
+## Bibliotecas
+En esta actividad creamos unos archivos .cpp .h y el main, el archivo decia el nombre de la persona que creo el archivo.
+
+Luego en el cmd escribimos un par de comandos que creaban el .obj y .exe y libfoo
+
+Le pasamos el .exe a un compañero y luego comilamos, mostraba el nombre del creador del archivo.
+
+Lugo con los primero archivos pusimos otros comandos que creaban el dll. Le compartimos otra vez el .exe y al compilar se mostrban ambos nombres, del creador del archivo y el de la persona al que se le mando.
