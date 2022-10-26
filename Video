@@ -1,0 +1,206 @@
+va1 = 8
+print(type(va1))
+
+va2 = 8.0
+print(type(va2))
+
+va3 = 2 + 3j
+print(type(va3))
+
+va1f = float(va1)
+print(type(va1f))
+print(type(va1))
+
+#int
+#float
+#complex
+
+v = true
+f = false
+
+print(v)
+print(f)
+
+print(type(v))
+print(type(f))
+
+msj = ' hola compañeros '
+print(type(msj))
+print(msj)
+
+print(msj[0])
+
+#msj[0] = 'R'
+#msj = 'adios'
+
+print(msj)
+
+print(len(msj))
+print(msj[3:7])
+print(msj[-5:-2])
+msj2 = msj.strip()
+print(mjs2)
+
+print(msj2.upper())
+print(msj2.lower())
+print(msj2.replace('o', 'a'))
+
+print('mpa' in msj)
+print('mpa' not in msj)
+
+msj3 = msj + msj2
+print(msj3)
+
+cantidad = 3
+numero = 567
+precio = 32.57
+
+peticion = 'quiero {} elementos del numero {} que tienen un precio de {}'
+print(peticion)
+print(peticion.format(cantdad, numero, precio))
+
+favorite_things = ['8', 6 + 2.4j, true]
+print(type(favorite_things))
+
+print(type(favorite_things[0]))
+print(type(favorite_things[1]))
+print(type(favorite_things[2]))
+
+print(favotire_thing[-2])
+
+mont_lst = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio, 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+print(mont_lst[-4:-1])
+mont_lst[0] = 'enerito'
+print(mont_lst)
+
+mont_lst.pop()
+print(mont_lst)
+
+mont_lst.pop(0)
+print(mont_lst)
+
+mont_lst.append('diciembre')
+print(mont_lst)
+
+mont_lst = ['enero'] + mont_lst
+print(mont_lst)
+
+lst1 =['Lunes', 'martes', 'miercoles']
+lst2 =['jueves', 'viernes', 'sabado']
+
+
+
+
+
+lst1.extend(lst2)
+print(lst1)
+
+msj = 'hola'
+print(msj)
+msj_lst = list(msj)
+print(msj_list)
+
+lst1.remove('miercoles')
+print(lst1)
+
+del lst1[0]
+print(lst1)
+
+lst1.clear()
+print(lst1)
+
+
+mont_lst = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio, 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+print(mont_tpl))
+print(type(mont_tpl))
+
+print(mont_tpl[4])
+#mont_tpl[0]='enerito'
+print(mont_tpl)
+
+tpl1 =('Lunes', 'Martes', 'miercoles')
+tpl2 =('jueves', 'viernes', 'sabado')
+tpl3 = tpl1 +tpl2
+print(tple3)
+
+repeticiones = tpl3-count('Lunes')
+print(repeticiones)
+lugar = tpl3.indez('viernes')
+print(lugar)
+
+mont_st = {'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio, 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'}
+print(mont_st))
+print(type(mont_st))
+
+print('julio' in mont_st)
+
+mont_st.remove('abril')
+print(mont_st)
+
+mont_st.revome('agosto')
+print(mont_st)
+
+mont_st.add('abril')
+print(mont_st)
+
+mont_st.add('agosto')
+print(mont_st)
+
+st1 = {'Lunes', 'Martes', 'miercoles'}
+st2 = {'jueves', 'viernes', 'sabado'}
+
+st1.update(st2)
+print(st1)
+
+st1 = {'Lunes', 'Martes', 'miercoles'}
+st2 = {'jueves', 'viernes', 'sabado'}
+
+st3 = st1.union(st2)
+print(st3)
+
+st1.update(lst2)
+print(st1)
+
+dia =st1.pop()
+print(dia)
+print(st1)
+
+
+st1.clear()
+print(st1)
+
+
+persona ={
+	'nombre': 'Paty',
+	'edad': 37,
+	'estatura', 1.57,
+}
+
+print(persona)
+
+print(persona['nombre])
+
+age = persona.get('edad')
+print(age)
+
+persona['estatura'] = 1.60
+print(persona9
+
+print('edad' in persona)
+print'hobbies' in persona)
+
+perint(len(persona))
+print['mascotas'] = true
+print(persona)
+
+persona.pop('edad')
+perint(persona)
+
+persona.popitem()
+print(persona)
+
+del persona['estatura']
+print(persona)
+
+persona.clear()
+print(persona)
